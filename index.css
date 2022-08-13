@@ -1,0 +1,83 @@
+@import "./normalize.css";
+* {
+  border: 1px solid red;
+}
+/* pages */
+.page {
+  background: #2A2C2F;
+}
+/* header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 92.5%;
+  margin: auto;
+  max-height: 3.25rem;
+}
+.header__lang_wrapper {
+  position: relative;
+  right: 2%;
+  display: flex;
+  align-items: center;
+}
+.header__lang-link {
+  font-size: 1.5rem;
+  margin-left: 18px;
+  color: #FFFFFF;
+}
+.header__lang-link:nth-child(1) {
+  margin-left: 0;
+  text-decoration: underline;
+}
+.header__logo {
+  object-fit: contain;
+}
+
+/* lead */
+.lead {
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lead__caption {
+  margin: 0;
+  color: #FFFFFF;
+  align-self: flex-start;
+}
+.lead__title {
+  width: 55%;
+    color: #FFFFFF;
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2rem;
+    line-height: 6.25rem;
+}
+.lead__subtitle {
+  font-size: 1.875rem;
+  margin: 0;
+  margin-bottom: 4rem;
+  width: 25%;
+  text-align: center;
+    color: #FFFFFF;
+}
+.lead__leadimg {
+  object-fit: contain;
+  width: 100%;
+}
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 2rem;
+  }
+}
+/* intro */
+.intro {
+  margin-top: 5.75rem;
+  width: 53%;
+  margin-left: 11.56%;
+}
