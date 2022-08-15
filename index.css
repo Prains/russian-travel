@@ -81,3 +81,41 @@
   width: 53%;
   margin-left: 11.56%;
 }
+.intro__title {
+  margin: 0;
+  font-size: 3.375rem;
+  color: #FFFFFF;
+  margin-bottom: 2.5rem;
+}
+.intro__text {
+  font-size: 1rem;
+  color: #FFF;
+  margin: 0;
+  margin-bottom: 2.0625rem;
+}
+.intro__list-wrapper {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+.intro__list {
+  color: #FFF;
+  margin: 0;
+}
+.intro__list-bold {
+  font-weight: bold;
+}
+
+/* grd */
+.grid {
+  margin-top: 5.75rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 96.25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid__image {
+  object-fit: contain;
+}
