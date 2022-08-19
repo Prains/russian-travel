@@ -1,0 +1,5 @@
+.footer__text-wrapper {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(5, fit-content(200px));
+}

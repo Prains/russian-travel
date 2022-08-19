@@ -1,0 +1,7 @@
+.places__text {
+  margin: 0;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  grid-column-start: 2;
+  font-size: 1.2rem;
+}

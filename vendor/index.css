@@ -1,0 +1,47 @@
+@import "../normalize.css";
+/*pages*/
+@import "../pages/page.css";
+/*fonts*/
+@import "./fonts.css";
+/* header */
+@import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__lang-link/header__lang-link.css";
+@import '../blocks/header/__lang-wrapper/header__lang-wrapper.css';
+/* lead */
+@import "../blocks/lead/lead.css";
+@import "../blocks/lead/__title/lead__title.css";
+@import "../blocks/lead/__caption/lead__caption.css";
+@import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__leadimg/lead__leadimg.css";
+/* intro */
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__list-wrapper/intro__list-wrapper.css";
+@import "../blocks/intro/__list/intro__list.css";
+@import "../blocks/intro/__list-bold/intro__list-bold.css";
+@import "../blocks/intro/__text/intro__text.css";
+@import "../blocks/intro/__title/intro__title.css";
+/* grd */
+@import "../blocks/grid/grid.css";
+@import "../blocks/grid/__image/grid__image.css";
+/* places */
+@import "../blocks/places/places.css";
+@import "../blocks/places/__title/places__title.css";
+@import "../blocks/places/__text/places__text.css";
+@import "../blocks/places/__link/places__link.css";
+@import "../blocks/places/__image/places__image.css";
+@import "../blocks/places/__link-holder/places__link-holder.css";
+@import "../blocks/places/__link/places__link.css";
+@import "../blocks/places/__wrapper/places__wrapper.css";
+@import "../blocks/places/__url/places__url.css";
+@import "../blocks/places/__image/places__image.css";
+/* cover */
+@import "../blocks/cover/cover.css";
+@import "../blocks/cover/__subtitle/cover__subtitle.css";
+@import "../blocks/cover/__title/сover__title.css";
+@import "../blocks/cover/__link/cover__link.css";
+/* footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__text-wrapper/footer__text-wrapper.css";
+@import "../blocks/footer/__text/footer__text.css";

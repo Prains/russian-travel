@@ -1,0 +1,34 @@
+.cover {
+  position: relative;
+  z-index: 0;
+  max-width: 1184px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url(../../images/__background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.cover::before {
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity .3s;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.cover:hover::before {
+  opacity: .8;
+}
+@media screen and (min-width: 1024px) {
+.cover {
+  height: 100vh;
+}
+}

@@ -1,0 +1,16 @@
+.cover__title {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  font-size: 4.5rem;
+  width: 54.69%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+.cover__title {
+  top: 15%;
+}
