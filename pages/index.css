@@ -1,8 +1,8 @@
-@import "../normalize.css";
+@import "../vendor/normalize.css";
 /*pages*/
-@import "../pages/page.css";
+@import "../blocks/page/page.css";
 /*fonts*/
-@import "./fonts.css";
+@import "../vendor/fonts.css";
 /* header */
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";

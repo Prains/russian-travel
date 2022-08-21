@@ -2,7 +2,9 @@
   font-size: 1.875rem;
   margin: 0;
   margin-bottom: 4rem;
-  width: 25%;
+  max-width: 640px;
+  width: 100%;
   text-align: center;
   color: #FFFFFF;
+  line-height: 2.25rem;
 }

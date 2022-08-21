@@ -2,4 +2,8 @@
   margin: 0;
   color: #FFFFFF;
   align-self: flex-start;
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }

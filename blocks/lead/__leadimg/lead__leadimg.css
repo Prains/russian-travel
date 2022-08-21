@@ -1,4 +1,7 @@
 .lead__leadimg {
   object-fit: contain;
+  max-width: 984px;
+  max-height: 615px;
+  height: 100%;
   width: 100%;
 }

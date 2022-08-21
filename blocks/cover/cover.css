@@ -2,16 +2,18 @@
   position: relative;
   z-index: 0;
   max-width: 1184px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 200px;
   background-image: url(../../images/__background.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .cover::before {
   height: 100%;
   background-color: #2A2C2F;
@@ -24,11 +26,25 @@
   left: 0;
   width: 100%;
 }
+
 .cover:hover::before {
   opacity: .8;
 }
+
 @media screen and (min-width: 1024px) {
-.cover {
-  height: 100vh;
+  .cover {
+    height: 640px;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .cover {
+    height: 480px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    height: 740px;
+  }
 }
