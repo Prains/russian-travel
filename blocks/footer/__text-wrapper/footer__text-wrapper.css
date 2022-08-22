@@ -1,5 +1,15 @@
 .footer__text-wrapper {
+  gap: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+.footer__text-wrapper {
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(5, fit-content(200px));
+}
 }

@@ -10,3 +10,9 @@
 .footer__text:hover {
   opacity: 0.3;
 }
+
+@media screen and (min-width: 1024px) {
+  .footer__text {
+      align-self: flex-start;
+  }
+}

@@ -1,10 +1,9 @@
 .page {
   background: #2A2C2F;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 5.75rem;
-  overflow: hidden;
   max-width: 1920px;
   min-width: 320px;
-  width: 100%;
   font-family: 'Inter';
 }
