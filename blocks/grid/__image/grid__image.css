@@ -1,5 +1,4 @@
 .grid__image {
-  max-width: 284px;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }

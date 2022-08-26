@@ -1,6 +1,5 @@
 .header__lang-wrapper {
-  position: relative;
-  right: 2%;
+  margin-right: 3rem;
   display: flex;
   align-items: center;
 }

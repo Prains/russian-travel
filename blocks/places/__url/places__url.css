@@ -1,6 +1,6 @@
 .places__url {
   margin: 0;
-  position: relative;
-  top: 40%;
+  margin-top: 6.625rem;
   color: #aaa;
+  line-height: 163%;
 }
