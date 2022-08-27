@@ -5,23 +5,24 @@
   <meta charset="utf-8">
   <title>Путешествие по России</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
+<body class="body">
   <header class='header'>
-    <img src="./images/__logo.png" alt="image" class='header__logo'>
+    <img src="./images/__logo.svg" alt="image" class='header__logo'>
     <div class="header__lang-wrapper">
-      <a class='header__lang-link underline'>Ru</a>
-      <a class='header__lang-link'>En</a>
+      <a class='header__lang-link header__lang-underline' href="#">Ru</a>
+      <a class='header__lang-link' href="#">En</a>
     </div>
   </header>
   <main class='page'>
     <section class="lead">
       <h1 class='lead__title'>Путешествия по России</h1>
       <p class='lead__subtitle'>Настоящая страна не в выпусках новостей, а здесь.</p>
+        <figure class='lead__caption'>
       <img src="./images/__leadimg.png" alt="image" class='lead__leadimg'>
-      <figure class='lead__caption'>ваша полка — верхняя</figure>
+            ваша полка — верхняя</figure>
     </section>
     <section class='intro'>
       <h2 class='intro__title'>Чего мы там не видели?</h2>
@@ -57,12 +58,12 @@
           <p class='places__url'>URL</p>
           <a class='places__link' href="http://park-kosa.ru">park-kosa.ru</a>
         </div>
-        <article class="places__text-wrapper">
+        <div class="places__text-wrapper">
           <p class='places__text'>Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю
             российского анклава.</p>
           <p class="places__text">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов.
             Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
-        </article>
+        </div>
         <img src="./images/__placesimg1.png" alt="image" class='places__image'>
       </div>
       <div class="places__wrapper">
@@ -126,8 +127,8 @@
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
         <h2 class='cover__title'>До Байкала «на собаках»</h2>
         <p class='cover__subtitle'>По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </a>
       </section>
-    </a>
   </main>
   <footer class='footer'>
     <nav class="footer__text-wrapper">

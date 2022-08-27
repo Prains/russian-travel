@@ -4,7 +4,8 @@
   text-decoration: none;
   color: #fff;
   transition: 0.3s;
+  line-height: 18px;
 }
 .footer__text:hover {
-  opacity: 0.3;
+  opacity: 0.8;
 }

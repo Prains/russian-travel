@@ -2,10 +2,16 @@
   font-size: 1.875rem;
   margin: 0;
   margin-bottom: 4rem;
-  max-width: 640px;
   text-align: center;
   color: #FFFFFF;
   line-height: 2.25rem;
   width: 100%;
   font-weight: 400;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

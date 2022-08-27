@@ -1,0 +1,10 @@
+.footer__text-author {
+  margin: 0;
+  margin-right: 3rem;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__text-author {
+    margin-right: 0;
+  }
+}

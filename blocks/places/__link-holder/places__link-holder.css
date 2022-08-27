@@ -2,4 +2,5 @@
   max-width: 456px;
   width: 100%;
   grid-column-start: 2;
+  align-self: end;
 }
