@@ -3,6 +3,18 @@
   margin-right: 3rem;
 }
 
+.footer__text-author {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+  line-height: 18px;
+}
+.footer__text-author:hover {
+  opacity: 0.8;
+}
+
+
 @media screen and (max-width: 320px) {
   .footer__text-author {
     margin-right: 0;

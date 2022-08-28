@@ -17,11 +17,12 @@
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    max-width: 560px;
+    width: 560px;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__title {
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
   }
