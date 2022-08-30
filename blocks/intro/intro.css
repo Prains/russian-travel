@@ -1,10 +1,12 @@
 .intro {
   max-width: 690px;
   width: 100%;
-  margin-left: 11.56%;
+  height: 100%;
+  margin-left: 148px;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,5 +17,10 @@
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
   }
 }

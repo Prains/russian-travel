@@ -34,24 +34,24 @@
 
 @media screen and (min-width: 320px) {
   .cover {
-    height: 320px;
+    min-height: 200px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    height: 740px;
+    min-height: 740px;
   }
 }

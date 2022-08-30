@@ -6,6 +6,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5.75rem;
+  gap: 92px;
   max-width: 1280px;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    gap: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    gap: 64px;
+  }
 }

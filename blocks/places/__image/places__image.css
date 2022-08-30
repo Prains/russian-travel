@@ -1,9 +1,9 @@
 
 .places__image {
   max-width: 460px;
-  max-height: 460px;
   width: 100%;
   object-fit: contain;
+  align-self: start;
   grid-row: 2;
-  height: 100%;
+  order: -1;
 }

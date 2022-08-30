@@ -1,29 +1,35 @@
 .places__wrapper {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5rem;
-  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 32px;
+}
+
+.places__wrapper:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
   .places__wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px 1fr));
+    grid-template-columns: 340px 352px;
     gap: 28px;
-  }
-
-  .places__wrapper:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 72px;
   }
 }
 @media screen and (min-width: 1024px) {
   .places__wrapper {
     gap: 32px;
+    grid-template-columns: 440px 456px;
+    margin-bottom: 80px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .places__wrapper {
     gap: 40px;
+    grid-template-columns: 460px 484px;
   }
 }
