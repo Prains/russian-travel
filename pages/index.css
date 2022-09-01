@@ -50,5 +50,3 @@
 @import "../blocks/footer/__text-wrapper/footer__text-wrapper.css";
 @import "../blocks/footer/__text/footer__text.css";
 @import "../blocks/footer/__text-author/footer__text-author.css";
-
-*{ border: 1px solid red;}
