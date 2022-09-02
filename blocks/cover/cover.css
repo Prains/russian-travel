@@ -40,7 +40,7 @@
 
 @media screen and (min-width: 768px) {
   .cover {
-    min-height: 640px;
+    min-height: 480px;
   }
 }
 

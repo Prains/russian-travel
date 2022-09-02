@@ -18,11 +18,13 @@
     flex-direction: row;
     max-width: 720px;
     margin: 0 auto;
+    padding-top: 88px;
   }
 }
 @media screen and (min-width: 1024px) {
   .footer {
     max-width: 928px;
+    padding-top: 92px;
   }
 }
 @media screen and (min-width: 1280px) {
